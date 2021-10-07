@@ -22,11 +22,13 @@ function quiz(question,answer){
   if (userAnswer.toUpperCase() === answer.toUpperCase()) {
     console.log("Correct!!")
     score = score+1;
+    console.log("Your Score is: "+score);
     console.log("----------")
   }
   else {
     console.log("Wrong!!")
     score = score+0;
+    console.log("Your Score is: "+score);
     console.log("----------")
   }
 }
